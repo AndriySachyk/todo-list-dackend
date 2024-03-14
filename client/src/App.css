@@ -1,0 +1,31 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #212121;
+    overflow-y: auto;
+}
+
+
+
+h1,h2,h3,h4,h5,p {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+
+body::-webkit-scrollbar {
+    position: absolute;
+    width: 12px;               
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #e8e8e8;        
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #212121;  
+    border-radius: 20px;       
+    border: 3px solid #e8e8e8;  
+  }

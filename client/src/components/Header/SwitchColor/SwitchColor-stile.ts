@@ -1,24 +1,29 @@
 import styled from "styled-components";
 
 
+export const ContainerSwitchColor = styled.div`
+    width: 360px;
+`
+
+
+
 export const ToggleSwitch = styled.div`
-    position: absolute;
-    left: 50px;
+    position: relative;
     width: 100px;
     height: 50px;
     --light: #d8dbe0;
     --dark: #28292c;
     --link: rgb(27, 129, 112);
     --link-hover: rgb(24, 94, 82);
-`
+    `
 
 export const SwitchLabel = styled.label`
+cursor: pointer;
 position: absolute;
 width: 100%;
 height: 50px;
 background-color: var(--dark);
 border-radius: 25px;
-cursor: pointer;
 border: 3px solid var(--dark);
 `
 export const Checkbox = styled.input.attrs({ type: 'checkbox' })`
@@ -35,9 +40,9 @@ export const Checkbox = styled.input.attrs({ type: 'checkbox' })`
         -webkit-box-shadow: none;
         box-shadow: none;
     }
-
-
-`
+    
+    
+    `
 
 
 export const Slider = styled.span`
@@ -61,4 +66,4 @@ export const Slider = styled.span`
         -webkit-transition: 0.3s;
         transition: 0.3s;
     }
-`
+    `

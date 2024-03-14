@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const HeaderContainer = styled.header`
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
     background-color: #FFF;
-    border: 2px solid #c3c6ce;
+    border-bottom: 2px solid #c3c6ce;
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 50px;

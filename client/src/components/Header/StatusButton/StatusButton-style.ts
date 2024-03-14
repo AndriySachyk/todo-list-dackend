@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 
 export const RadioInputs = styled.div`
-    position: absolute;
-    right: 50px;
+
+    width: 360px;
+
     display: flex;
     flex-wrap: wrap;
     border-radius: 0.5rem;
@@ -12,7 +13,7 @@ export const RadioInputs = styled.div`
     box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
     padding: 0.25rem;
     width: 360px;
-    font-size: 14px;
+    font-size: 16px;
 
 `
 
