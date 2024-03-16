@@ -17,6 +17,7 @@ useEffect(()=>{
 
 
 const handleStatusBar = (even: string):void =>{
+    console.log('even', even)
     setSelectedOption(even)
 }
 
