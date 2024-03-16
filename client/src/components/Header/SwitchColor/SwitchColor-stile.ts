@@ -66,4 +66,5 @@ export const Slider = styled.span`
         -webkit-transition: 0.3s;
         transition: 0.3s;
     }
-    `
+`
+
