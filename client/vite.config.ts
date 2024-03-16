@@ -1,7 +1,7 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+// vite.config.js або vite.config.ts
 
-// https://vitejs.dev/config/
+import { defineConfig } from 'vite';
+
 export default defineConfig({
-  plugins: [react()],
-})
+  base: '/todo-list-dackend/', // Замініть 'repositoryname' на назву вашого репозиторію
+});
